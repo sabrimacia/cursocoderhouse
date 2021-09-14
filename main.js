@@ -27,7 +27,7 @@ if((numeroIngresado >=10) && (numeroIngresado <=50)){
 }
 */
 
-/* EJERCICIO CLASE 3 
+/* EJERCICIO CLASE 3 */
 let numero=parseInt(prompt("Ingrese un numero"));
 for (let i=1; i<=10; i++){
     let resultado = numero + i ;
@@ -39,7 +39,7 @@ for (let i=1; i<=10; i++){
      alert("Bienvenido" + texto);
      texto = prompt ("Ingresa tu apeliido");
  }
-*/
+
 let numero = prompt("Ingrese un numero");
 while( numero != "ESC"){
     switch (numero){
@@ -47,6 +47,9 @@ while( numero != "ESC"){
             alert("Hola");
             break;
         case "2":
+            alert("Hola");
+            break;
+        case "3":
             alert("Hola");
             break;
         default:
